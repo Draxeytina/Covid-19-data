@@ -1,5 +1,3 @@
-image.png
-
 # Covid-19-Data
 An single-paged application that utilizes real-time covid data from the API. A user can view latest updated statistics according to the African region. Built with React and Redux.
 
