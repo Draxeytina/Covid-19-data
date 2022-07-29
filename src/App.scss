@@ -1,0 +1,15 @@
+@import "./base.scss";
+
+.filter {
+  display: flex;
+  justify-content: center;
+  padding: $padding;
+  margin-bottom: calc($padding/2);
+  color: white;
+}
+
+@media (min-width: 760px) {
+  .profile-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}

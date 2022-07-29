@@ -1,0 +1,11 @@
+@import './base.scss';
+
+* {
+  padding: 0;
+  list-style-type: none;
+  font-family: $font;
+}
+
+#root {
+  background-color: $color-background;
+}
