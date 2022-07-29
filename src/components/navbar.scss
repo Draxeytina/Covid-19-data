@@ -70,9 +70,8 @@ nav {
     transition: $transition;
   }
 
-  &:active,
-  &:visited {
-    color: black;
+  &:active {
+    color: $color-border;
   }
 }
 
@@ -107,8 +106,8 @@ nav {
       color: white;
       display: block;
       font-size: 1rem;
-      letter-spacing: $padding*0.2;
-      padding: $padding*2;
+      letter-spacing: 2px;
+      padding: 20px;
       text-decoration: none;
 
       &:hover {
@@ -180,7 +179,7 @@ nav {
         color: white;
         display: inline-block;
         font-size: 1rem;
-        letter-spacing: $padding*0.2;
+        letter-spacing: calc(10px*0.2);
         text-decoration: none;
 
         &:hover {

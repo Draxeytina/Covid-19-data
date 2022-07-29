@@ -1,5 +1,5 @@
 # Covid-19-Data
-An single-paged application that utilizes real-time covid data from the API. A user can view statistics according to country. Built with React and Redux.
+An single-paged application that utilizes real-time covid data from the API. A user can view latest updated statistics according to the African region. Built with React and Redux.
 ## Built With
 - React
 - Redux
@@ -37,6 +37,8 @@ I would like to acknowledge the following for making this a success:
 - My coding partners
 - The Microverse code reviewers
 - <a href="https://tradestie.com/apps/reddit/api/">Tradestie</a>
+
+- Original design idea by Nelson Sakwa on Behance.
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
 

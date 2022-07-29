@@ -5,3 +5,9 @@
   padding-top: 10px;
   height: 100vh;
 }
+
+@media (min-width: 760px) {
+  .container-frame {
+    margin: 100px;
+  }  
+}

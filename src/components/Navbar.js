@@ -1,5 +1,4 @@
 import React, {
-  Fragment,
   useEffect,
   useRef,
   useState,
@@ -31,7 +30,7 @@ const Navbar = () => {
   }, [action]);
 
   return (
-    <>
+    <div className="nav-container">
       <header>
         <div className="container d-flex">
           <Link to="/" className="logo-link" onClick={() => closeMenu()}>
@@ -84,7 +83,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div ref={visibility} className={menu ? 'visibility visibility-show' : 'visibility visibility-hide'}>.</div>
-    </>
+    </div>
   );
 };
 
