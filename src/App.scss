@@ -1,9 +1,11 @@
 @import "./base.scss";
 
-.profile-grid {
-  display: grid;
-  grid-template-columns: 100%;
-  gap: $padding*2;
+.filter {
+  display: flex;
+  justify-content: center;
+  padding: $padding;
+  margin-bottom: calc($padding/2);
+  color: white;
 }
 
 @media (min-width: 760px) {

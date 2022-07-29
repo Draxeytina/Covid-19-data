@@ -76,8 +76,6 @@ export default function Filter({
     'South Africa',
   ];
 
-  const filterInput = useRef();
-
   useEffect(() => {
     if (activeCountry === 'All') {
       setFiltered(data);
@@ -99,10 +97,13 @@ export default function Filter({
     }
   }, [activeCountry]);
 
+  const category = useRef();
+
   return (
     <div className="filter">
-      Select Region:
-      <select name="country" ref={filterInput} onLoad={() => setActiveCountry(filterInput.current.value)} onChange={() => setActiveCountry(filterInput.current.value)}>
+      Select Region :
+      {' '}
+      <select className="categoryInput" name="country" ref={category} onLoad={() => setActiveCountry(category.current.value)} onChange={() => setActiveCountry(category.current.value)}>
         <option value="All">All</option>
         <option value="Southern African Countries">Southern African Countries</option>
         <option value="Northen African Countries">Northen African Countries</option>

@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <>
       <div className="home">
-        Welcome
+        <h1 className="welcome-text">Welcome</h1>
       </div>
 
       <Filter
@@ -31,32 +31,32 @@ export default function Home() {
       <div className="list-container-oval">
         {
           (activeCountry === 'Top World Cases') ? (
-            <div>
+            <div className="iframe-top">
               <iframe
                 title="World Top Data"
                 src="https://covid-19.dataflowkit.com/assets/widget/c19-top-widget.html"
-                width="90%"
+                minWidth="250px"
                 height="300px"
-                frameBorder="0"
+                frameBorder="1px solid white"
+                allowTransparency="false"
               />
             </div>
           ) : (
-            <div className="regions-container">
-              <ul>
+            <div>
+              <ul className="regions-container">
                 {filtered.length === 0 && (
 
                   data.map((data) => (
                     <li key={data.id}>
-                      <Data
-                        countryName={data.Country_text}
-                        totalCases={data['Total Cases_text']}
-                        totalDeaths={data['Total Deaths_text']}
-                        totalRecoveries={data['Total Recovered_text']}
-                      />
                       <Link
                         to={`/covidData/${data.id}`}
                       >
-                        <button type="button">View Statistics</button>
+                        <Data
+                          countryName={data.Country_text}
+                          totalCases={data['Total Cases_text']}
+                          totalDeaths={data['Total Deaths_text']}
+                          totalRecoveries={data['Total Recovered_text']}
+                        />
                       </Link>
                     </li>
                   ))
@@ -65,16 +65,15 @@ export default function Home() {
 
                   filtered.map((data) => (
                     <li key={data.id}>
-                      <Data
-                        countryName={data.Country_text}
-                        totalCases={data['Total Cases_text']}
-                        totalDeaths={data['Total Deaths_text']}
-                        totalRecoveries={data['Total Recovered_text']}
-                      />
                       <Link
                         to={`/covidData/${data.id}`}
                       >
-                        <button type="button">View Statistics</button>
+                        <Data
+                          countryName={data.Country_text}
+                          totalCases={data['Total Cases_text']}
+                          totalDeaths={data['Total Deaths_text']}
+                          totalRecoveries={data['Total Recovered_text']}
+                        />
                       </Link>
                     </li>
                   ))

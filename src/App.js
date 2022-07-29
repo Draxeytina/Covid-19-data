@@ -15,6 +15,12 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route exact path="/covidData/:id" element={<Details />} />
           <Route exact path="/local%data" element={<LocalData />} />
+          <Route
+            path="*"
+            element={
+              <div><h2>404 Page not found</h2></div>
+            }
+          />
         </Routes>
       </div>
     </BrowserRouter>

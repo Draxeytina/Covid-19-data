@@ -12,23 +12,23 @@ import { FiX, FiMenu } from 'react-icons/fi';
 import './navbar.scss';
 
 const Navbar = () => {
-  const [menuMovil, setMenuMovil] = useState(false);
-  const [axn, setAxn] = useState(false);
-  const cortain = useRef();
+  const [menu, setMenu] = useState(false);
+  const [action, setAction] = useState(false);
+  const visibility = useRef();
 
   const closeMenu = () => {
-    setAxn(false);
+    setAction(false);
   };
 
   useEffect(() => {
-    if (axn) {
-      cortain.current.style.display = 'block';
-      setMenuMovil(true);
+    if (action) {
+      visibility.current.style.display = 'block';
+      setMenu(true);
     } else {
-      cortain.current.style.display = 'none';
-      setMenuMovil(false);
+      visibility.current.style.display = 'none';
+      setMenu(false);
     }
-  }, [axn]);
+  }, [action]);
 
   return (
     <>
@@ -37,16 +37,15 @@ const Navbar = () => {
           <Link to="/" className="logo-link" onClick={() => closeMenu()}>
             <h1>Covid 19 Statistics</h1>
           </Link>
-
           <div
             className="movil-box"
             role="button"
             tabIndex={-1}
-            onClick={() => setAxn(!axn)}
-            onKeyUp={() => setAxn(!axn)}
+            onClick={() => setAction(!action)}
+            onKeyUp={() => setAction(!action)}
           >
             {
-              menuMovil ? (
+              menu ? (
                 <FiX className="movil-box-icon" />
               ) : (
                 <FiMenu className="movil-box-icon" />
@@ -70,8 +69,7 @@ const Navbar = () => {
           </nav>
         </div>
       </header>
-
-      <div className={menuMovil ? 'menu-movil menu-show' : 'menu-movil menu-hide'}>
+      <div className={menu ? 'menu-movil menu-show' : 'menu-movil menu-hide'}>
         <ul>
           <li role="presentation">
             <NavLink to="/" onClick={() => closeMenu()}>
@@ -85,8 +83,7 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-
-      <div ref={cortain} className={menuMovil ? 'cortain cortain-show' : 'cortain cortain-hide'}>.</div>
+      <div ref={visibility} className={menu ? 'visibility visibility-show' : 'visibility visibility-hide'}>.</div>
     </>
   );
 };

@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home page snapshot renders the home page and makes a snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="home"
+  >
+    <h1
+      class="welcome-text"
+    >
+      Welcome
+    </h1>
+  </div>
+  <div
+    class="filter"
+  >
+    Select Region : 
+    <select
+      class="categoryInput"
+      name="country"
+    >
+      <option
+        value="All"
+      >
+        All
+      </option>
+      <option
+        value="Southern African Countries"
+      >
+        Southern African Countries
+      </option>
+      <option
+        value="Northen African Countries"
+      >
+        Northen African Countries
+      </option>
+      <option
+        value="Western African Countries"
+      >
+        Western African Countries
+      </option>
+      <option
+        value="Eastern African Countries"
+      >
+        Eastern African Countries
+      </option>
+      <option
+        value="Middle African Countries"
+      >
+        Middle African Countries
+      </option>
+      <option
+        value="Top World Cases"
+      >
+        Top World Cases
+      </option>
+    </select>
+  </div>
+  <div
+    class="list-container-oval"
+  >
+    <div>
+      <ul
+        class="regions-container"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

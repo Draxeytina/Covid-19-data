@@ -1,0 +1,874 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test rendering properties Display home page 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="home"
+      >
+        <h1
+          class="welcome-text"
+        >
+          Welcome
+        </h1>
+      </div>
+      <div
+        class="filter"
+      >
+        Select Region :
+         
+        <select
+          class="categoryInput"
+          name="country"
+        >
+          <option
+            value="All"
+          >
+            All
+          </option>
+          <option
+            value="Southern African Countries"
+          >
+            Southern African Countries
+          </option>
+          <option
+            value="Northen African Countries"
+          >
+            Northen African Countries
+          </option>
+          <option
+            value="Western African Countries"
+          >
+            Western African Countries
+          </option>
+          <option
+            value="Eastern African Countries"
+          >
+            Eastern African Countries
+          </option>
+          <option
+            value="Middle African Countries"
+          >
+            Middle African Countries
+          </option>
+          <option
+            value="Top World Cases"
+          >
+            Top World Cases
+          </option>
+        </select>
+      </div>
+      <div
+        class="list-container-oval"
+      >
+        <div>
+          <ul
+            class="regions-container"
+          />
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="home"
+    >
+      <h1
+        class="welcome-text"
+      >
+        Welcome
+      </h1>
+    </div>
+    <div
+      class="filter"
+    >
+      Select Region :
+       
+      <select
+        class="categoryInput"
+        name="country"
+      >
+        <option
+          value="All"
+        >
+          All
+        </option>
+        <option
+          value="Southern African Countries"
+        >
+          Southern African Countries
+        </option>
+        <option
+          value="Northen African Countries"
+        >
+          Northen African Countries
+        </option>
+        <option
+          value="Western African Countries"
+        >
+          Western African Countries
+        </option>
+        <option
+          value="Eastern African Countries"
+        >
+          Eastern African Countries
+        </option>
+        <option
+          value="Middle African Countries"
+        >
+          Middle African Countries
+        </option>
+        <option
+          value="Top World Cases"
+        >
+          Top World Cases
+        </option>
+      </select>
+    </div>
+    <div
+      class="list-container-oval"
+    >
+      <div>
+        <ul
+          class="regions-container"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Test rendering properties Display the nav bar 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <header>
+        <div
+          class="container d-flex"
+        >
+          <a
+            class="logo-link"
+            href="/"
+          >
+            <h1>
+              Covid 19 Statistics
+            </h1>
+          </a>
+          <div
+            class="movil-box"
+            role="button"
+            tabindex="-1"
+          >
+            <svg
+              class="movil-box-icon"
+              fill="none"
+              height="1em"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <line
+                x1="3"
+                x2="21"
+                y1="12"
+                y2="12"
+              />
+              <line
+                x1="3"
+                x2="21"
+                y1="6"
+                y2="6"
+              />
+              <line
+                x1="3"
+                x2="21"
+                y1="18"
+                y2="18"
+              />
+            </svg>
+          </div>
+          <nav>
+            <ul>
+              <li>
+                <a
+                  aria-current="page"
+                  class="active"
+                  href="/"
+                >
+                  Home
+                </a>
+              </li>
+              <li>
+                <a
+                  class=""
+                  href="/local%data"
+                >
+                  Local Statistics
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <div
+        class="menu-movil menu-hide"
+      >
+        <ul>
+          <li
+            role="presentation"
+          >
+            <a
+              aria-current="page"
+              class="active"
+              href="/"
+            >
+              Home
+            </a>
+          </li>
+          <li
+            role="presentation"
+          >
+            <a
+              class=""
+              href="/local%data"
+            >
+              Local Statistics
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="visibility visibility-hide"
+        style="display: none;"
+      >
+        .
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <header>
+      <div
+        class="container d-flex"
+      >
+        <a
+          class="logo-link"
+          href="/"
+        >
+          <h1>
+            Covid 19 Statistics
+          </h1>
+        </a>
+        <div
+          class="movil-box"
+          role="button"
+          tabindex="-1"
+        >
+          <svg
+            class="movil-box-icon"
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <line
+              x1="3"
+              x2="21"
+              y1="12"
+              y2="12"
+            />
+            <line
+              x1="3"
+              x2="21"
+              y1="6"
+              y2="6"
+            />
+            <line
+              x1="3"
+              x2="21"
+              y1="18"
+              y2="18"
+            />
+          </svg>
+        </div>
+        <nav>
+          <ul>
+            <li>
+              <a
+                aria-current="page"
+                class="active"
+                href="/"
+              >
+                Home
+              </a>
+            </li>
+            <li>
+              <a
+                class=""
+                href="/local%data"
+              >
+                Local Statistics
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div
+      class="menu-movil menu-hide"
+    >
+      <ul>
+        <li
+          role="presentation"
+        >
+          <a
+            aria-current="page"
+            class="active"
+            href="/"
+          >
+            Home
+          </a>
+        </li>
+        <li
+          role="presentation"
+        >
+          <a
+            class=""
+            href="/local%data"
+          >
+            Local Statistics
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="visibility visibility-hide"
+      style="display: none;"
+    >
+      .
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Test rendering properties Display the whole app 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <header>
+        <div
+          class="container d-flex"
+        >
+          <a
+            class="logo-link"
+            href="/"
+          >
+            <h1>
+              Covid 19 Statistics
+            </h1>
+          </a>
+          <div
+            class="movil-box"
+            role="button"
+            tabindex="-1"
+          >
+            <svg
+              class="movil-box-icon"
+              fill="none"
+              height="1em"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <line
+                x1="3"
+                x2="21"
+                y1="12"
+                y2="12"
+              />
+              <line
+                x1="3"
+                x2="21"
+                y1="6"
+                y2="6"
+              />
+              <line
+                x1="3"
+                x2="21"
+                y1="18"
+                y2="18"
+              />
+            </svg>
+          </div>
+          <nav>
+            <ul>
+              <li>
+                <a
+                  aria-current="page"
+                  class="active"
+                  href="/"
+                >
+                  Home
+                </a>
+              </li>
+              <li>
+                <a
+                  class=""
+                  href="/local%data"
+                >
+                  Local Statistics
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <div
+        class="menu-movil menu-hide"
+      >
+        <ul>
+          <li
+            role="presentation"
+          >
+            <a
+              aria-current="page"
+              class="active"
+              href="/"
+            >
+              Home
+            </a>
+          </li>
+          <li
+            role="presentation"
+          >
+            <a
+              class=""
+              href="/local%data"
+            >
+              Local Statistics
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="visibility visibility-hide"
+        style="display: none;"
+      >
+        .
+      </div>
+      <div
+        class="main"
+      >
+        <div
+          class="home"
+        >
+          <h1
+            class="welcome-text"
+          >
+            Welcome
+          </h1>
+        </div>
+        <div
+          class="filter"
+        >
+          Select Region :
+           
+          <select
+            class="categoryInput"
+            name="country"
+          >
+            <option
+              value="All"
+            >
+              All
+            </option>
+            <option
+              value="Southern African Countries"
+            >
+              Southern African Countries
+            </option>
+            <option
+              value="Northen African Countries"
+            >
+              Northen African Countries
+            </option>
+            <option
+              value="Western African Countries"
+            >
+              Western African Countries
+            </option>
+            <option
+              value="Eastern African Countries"
+            >
+              Eastern African Countries
+            </option>
+            <option
+              value="Middle African Countries"
+            >
+              Middle African Countries
+            </option>
+            <option
+              value="Top World Cases"
+            >
+              Top World Cases
+            </option>
+          </select>
+        </div>
+        <div
+          class="list-container-oval"
+        >
+          <div>
+            <ul
+              class="regions-container"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <header>
+      <div
+        class="container d-flex"
+      >
+        <a
+          class="logo-link"
+          href="/"
+        >
+          <h1>
+            Covid 19 Statistics
+          </h1>
+        </a>
+        <div
+          class="movil-box"
+          role="button"
+          tabindex="-1"
+        >
+          <svg
+            class="movil-box-icon"
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <line
+              x1="3"
+              x2="21"
+              y1="12"
+              y2="12"
+            />
+            <line
+              x1="3"
+              x2="21"
+              y1="6"
+              y2="6"
+            />
+            <line
+              x1="3"
+              x2="21"
+              y1="18"
+              y2="18"
+            />
+          </svg>
+        </div>
+        <nav>
+          <ul>
+            <li>
+              <a
+                aria-current="page"
+                class="active"
+                href="/"
+              >
+                Home
+              </a>
+            </li>
+            <li>
+              <a
+                class=""
+                href="/local%data"
+              >
+                Local Statistics
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div
+      class="menu-movil menu-hide"
+    >
+      <ul>
+        <li
+          role="presentation"
+        >
+          <a
+            aria-current="page"
+            class="active"
+            href="/"
+          >
+            Home
+          </a>
+        </li>
+        <li
+          role="presentation"
+        >
+          <a
+            class=""
+            href="/local%data"
+          >
+            Local Statistics
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="visibility visibility-hide"
+      style="display: none;"
+    >
+      .
+    </div>
+    <div
+      class="main"
+    >
+      <div
+        class="home"
+      >
+        <h1
+          class="welcome-text"
+        >
+          Welcome
+        </h1>
+      </div>
+      <div
+        class="filter"
+      >
+        Select Region :
+         
+        <select
+          class="categoryInput"
+          name="country"
+        >
+          <option
+            value="All"
+          >
+            All
+          </option>
+          <option
+            value="Southern African Countries"
+          >
+            Southern African Countries
+          </option>
+          <option
+            value="Northen African Countries"
+          >
+            Northen African Countries
+          </option>
+          <option
+            value="Western African Countries"
+          >
+            Western African Countries
+          </option>
+          <option
+            value="Eastern African Countries"
+          >
+            Eastern African Countries
+          </option>
+          <option
+            value="Middle African Countries"
+          >
+            Middle African Countries
+          </option>
+          <option
+            value="Top World Cases"
+          >
+            Top World Cases
+          </option>
+        </select>
+      </div>
+      <div
+        class="list-container-oval"
+      >
+        <div>
+          <ul
+            class="regions-container"
+          />
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

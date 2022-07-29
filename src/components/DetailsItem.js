@@ -1,5 +1,5 @@
 import React from 'react';
-import { AiOutlineLeft } from 'react-icons/ai';
+import { AiOutlineHome } from 'react-icons/ai';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import './detailsItem.scss';
@@ -14,21 +14,21 @@ export default function DetailsItem({
 }) {
   return (
     <div className="details-container">
-      <div className="main-statistics">
-        <p className="country-name">{countryName}</p>
-        <Link
-          className="go-home"
-          to="/"
-        >
-          <AiOutlineLeft className="back-icon" />
-        </Link>
-      </div>
-      <p className="total-cases">{`Total Cases: ${totalCases}`}</p>
       <div className="other-statistics">
+        <h1 className="country-name">{countryName}</h1>
+        <p className="total-cases">{`Total Cases: ${totalCases}`}</p>
         <p>{`Total Deaths: ${totalDeaths}`}</p>
         <p>{`Total Recoveries: ${totalRecoveries}`}</p>
         <p>{`Active Cases: ${activeCases}`}</p>
         <p>{`Info last updated: ${lastUpdate}`}</p>
+      </div>
+      <div className="main-statistics">
+        <Link
+          className="go-home"
+          to="/"
+        >
+          <AiOutlineHome className="back-icon" />
+        </Link>
       </div>
     </div>
   );
