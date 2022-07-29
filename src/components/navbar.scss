@@ -149,7 +149,7 @@ nav {
   height: 48px;
   justify-content: center;
   transition: $transition;
-  width:48px;
+  width: 48px;
 
   &:hover {
     background-color: transparentize($color-white, 0.9);
@@ -179,7 +179,7 @@ nav {
         color: white;
         display: inline-block;
         font-size: 1rem;
-        letter-spacing: calc(10px*0.2);
+        letter-spacing: 2px;
         text-decoration: none;
 
         &:hover {

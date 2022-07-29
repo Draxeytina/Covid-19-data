@@ -54,7 +54,7 @@ iframe {
   }
 
   li:hover {
-    transition: all .3s ease-in-out;
+    transition: all 0.3s ease-in-out;
     transform: scale(1.05);
     cursor: pointer;
     background-color: $color-border;
@@ -73,5 +73,5 @@ iframe {
   .regions-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-  }  
+  }
 }
