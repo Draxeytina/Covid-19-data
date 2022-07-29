@@ -1,0 +1,13 @@
+@import "./base.scss";
+
+.profile-grid {
+  display: grid;
+  grid-template-columns: 100%;
+  gap: $padding*2;
+}
+
+@media (min-width: 760px) {
+  .profile-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}

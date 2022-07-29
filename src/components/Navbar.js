@@ -35,7 +35,7 @@ const Navbar = () => {
       <header>
         <div className="container d-flex">
           <Link to="/" className="logo-link" onClick={() => closeMenu()}>
-            <h1>Reddit</h1>
+            <h1>Covid 19 Statistics</h1>
           </Link>
 
           <div
@@ -57,13 +57,13 @@ const Navbar = () => {
           <nav>
             <ul>
               <li>
-                <NavLink to="/home">
+                <NavLink to="/">
                   Home
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/stock%details">
-                  Stock Details
+                <NavLink to="/local%data">
+                  Local Statistics
                 </NavLink>
               </li>
             </ul>
@@ -74,13 +74,13 @@ const Navbar = () => {
       <div className={menuMovil ? 'menu-movil menu-show' : 'menu-movil menu-hide'}>
         <ul>
           <li role="presentation">
-            <NavLink to="/home" onClick={() => closeMenu()}>
+            <NavLink to="/" onClick={() => closeMenu()}>
               Home
             </NavLink>
           </li>
           <li role="presentation">
-            <NavLink to="/stock%details" onClick={() => closeMenu()}>
-              Stock Details
+            <NavLink to="/local%data" onClick={() => closeMenu()}>
+              Local Statistics
             </NavLink>
           </li>
         </ul>
