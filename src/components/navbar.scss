@@ -31,7 +31,9 @@ nav {
 }
 
 .active {
-  color: black;
+  color: lightblue;
+  display: inline;
+  border-bottom: 2px solid white;
 }
 
 .visibility {
@@ -192,7 +194,7 @@ nav {
   }
 
   .active {
-    color: black;
+    color: lightblue;
   }
 
   .movil-box {

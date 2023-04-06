@@ -21,7 +21,7 @@ iframe {
 .list-container-oval {
   display: flex;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .home {
@@ -46,11 +46,13 @@ iframe {
 .regions-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  background-color: $color-background;
 
   li {
     border: 1px solid $color-border;
     padding: 10px;
     background-color: $color-images;
+    border-radius: 5px;
   }
 
   li:hover {
@@ -73,5 +75,6 @@ iframe {
   .regions-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: $color-background;
   }
 }
